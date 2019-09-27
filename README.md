@@ -38,5 +38,7 @@ For each test case, print the minimum time in which all array elements will beco
 
 0
 
+# 2.
+
 
 
