@@ -205,8 +205,45 @@ NOTE: Order of friends after deleting exactly K friends should be maintained as 
 
 # Sample Input
 
-7
+3
 
+3  1
+
+3  100  1
+
+5  2
+
+19  12  3  4  17
+
+5  3
+
+23  45  11  77  18
+
+
+# Sample Output
+
+100  1
+
+19  12  17
+
+77   18
+
+# 7.Largest cycle in a tree
+
+You are given a tree of N nodes and N-1 edges. Now you need to select two nodes a and b in the tree such that the cycle that will be formed after adding an edge between the two nodes a and b, its length should be maximum. If there are more than one possible answer, you can output any of them.  
+# Input Format 
+
+The first line contains an integer as N input. Next N-1 lines contain a pair of integers (a, b) that denote there is an edge between the two nodes a and b in the tree.  
+# Output Format
+
+In the output, you need to print two integers separated by space which denote the nodes between which you can add the edge so as to maximize the length of the cycle in the tree.  
+# Constraints 
+
+1<=N<=10^5
+
+# Sample input
+
+7
 1  2
 
 1  3
@@ -222,7 +259,5 @@ NOTE: Order of friends after deleting exactly K friends should be maintained as 
 # Sample Output
 
 4  6
-
-
 
 
