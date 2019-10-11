@@ -20,16 +20,16 @@ For each test case, print the minimum time in which all array elements will beco
 2
 
 
-3 4
+3   4
 
 
-1 2 5
+1  2   5
 
 
-3 2
+3   2
 
 
-2 5 5
+2   5   5
 
 
 # Sample Output
@@ -126,7 +126,7 @@ The array consists of 1-N distinct numbers.
 
 5
 
-1  2  4  3  5
+1   2   4   3   5
 
 # Sample Output
 
@@ -153,9 +153,9 @@ Print the minimum amount of time required to clear the traffic jam".
 
 # Sample input
 
-4  2
+4   2
 
-R  Y  G  Y
+R   Y   G  Y
 
 # Sample output
 
@@ -207,24 +207,24 @@ NOTE: Order of friends after deleting exactly K friends should be maintained as 
 
 3
 
-3  1
+3   1
 
-3  100  1
+3   100   1
 
-5  2
+5   2
 
-19  12  3  4  17
+19   12   3  4   17
 
-5  3
+5   3
 
-23  45  11  77  18
+23   45   11   77   18
 
 
 # Sample Output
 
-100  1
+100   1
 
-19  12  17
+19   12   17
 
 77   18
 
@@ -244,20 +244,22 @@ In the output, you need to print two integers separated by space which denote th
 # Sample input
 
 7
-1  2
 
-1  3
 
-2  4
+1   2
 
-2  5
+1   3
 
-3  6
+2   4
 
-3  7
+2   5
+
+3   6
+
+3   7
 
 # Sample Output
 
-4  6
+4   6
 
 
