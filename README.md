@@ -263,3 +263,49 @@ In the output, you need to print two integers separated by space which denote th
 4   6
 
 
+# Largest cycle in a tree
+
+You are given a tree of N nodes and N-1 edges. Now you need to select two nodes a and b in the tree such that the cycle that will be formed after adding an edge between the two nodes a and b, its length should be maximum. If there are more than one possible answer, you can output any of them. 
+# Input Format
+The first line contains an integer as N input. Next N-1 lines contain a pair of integers (a, b) that denote there is an edge between the two nodes a and b in the tree. 
+# Output Format
+In the output, you need to print two integers separated by space which denote the nodes between which you can add the edge so as to maximize the length of the cycle in the tree. 
+
+# Monk watching fight
+
+Once Monk was watching a fight between an array and a tree, of being better. Tree got frustrated and converted that array into a Binary Search Tree by inserting the elements as nodes in BST, processing elements in the given order in the array. Now Monk wants to know the height of the created Binary Search Tree. 
+Help Monk for the same. 
+# Note: 
+1) In Binary Search Tree, the left sub-tree contains only nodes with values less than or equal to the parent node; the right sub-tree contains only nodes with values greater than the parent node.
+2) Binary Search Tree with one node, has height equal to 1. 
+# Input Format
+The first line will consist of 1 integer N, denoting the number of elements in the array. In next line, there will be N space separated integers, A[i], where 1 ≤ I ≤ N, denoting the elements of array. 
+# Output Format
+Print the height of the created Binary Search Tree. 
+
+# Yatin plays PUBG
+
+Yatin is playing PUBG and he has reached a place with a large staircase in front of him. And there is an enemy at each landing of the staircase. 
+The staircase is analogous to a binary tree with each of its nodes as a landing of the staircase and each of its edges as stairs from one landing to another. 
+Yatin wants to kill the maximum possible number of enemies. He can kill every person he can see from his position with his suppressed sniper gun. But he can see only the persons at the leftmost standing at each level and cannot see the rest. 
+Before starting shooting them, he wants to know how many persons he can kill. He is busy keeping an eye on the enemies. So he wants you to find out the maximum number of people he can kill from that location by providing you with the analogous a binary search tree. 
+[ Note: Players do not change their position after one player has died, i.e. the leftmost node remains the same even after player on that node has died. Or we can say that the nodes are not removed after the player on that node has died.] 
+Input Format 
+The first line of input contains a number t denoting the number of test cases. The first line of each test case contains n, the number of nodes in the tree. The second line of each test case contains n space separated integers (unique) ai denoting the value at each node of the BST. 
+# Output Format 
+Print the answer for each test case on a new line. 
+# Constraints
+1 <= t <= 20 
+1 <= n <= 1000 1 <= ai <= 1000000000 
+
+#  Haunted 
+
+The king of ghosts is really disappointed when he sees that all the human beings on Planet Earth have stopped fearing the ghost race. He knows the reason for this. The existing ghost race has become really lazy and has stopped visiting Planet Earth to scare the human race. Hence, he decides to encourage the entire ghost race into scaring the humans by holding a competition. The king, however, never visits Planet Earth. 
+This competition will go on for N days. Currently, there are a total of M ghosts (apart from the king) existing in the ghost race such that : - The youngest ghost is 1 year old. - The oldest ghost is M years old. - No two ghosts have the same age. - The age of each and every ghost is a positive integer. 
+On each day of the competition, ghosts have to visit Planet Earth to scare people. At the end of each day, a "Ghost of the Day" title is awarded to the ghost who scares the most number of humans on that particular day. However, the king of ghosts believes in consistency. Once this title has been given, the ghost who has won the most number of such titles until that particular moment is presented with a "Consistency Trophy". If there are many such ghosts, the oldest among them is given the trophy. Note that this "Title Giving" and "Trophy Giving" happens at the end of each day of the competition. 
+You will be given the age of the ghost who won the "Ghost of the Day" title on each day of the competition. Your job is to find out the age of the ghost who was awarded with the "Consistency Trophy" on each day of the competition. 
+# Input Format 
+The first line consists of 2 space separated integers N and M. The next line consists of N space separated integers such that the ith integer denotes the age of the ghost who was awarded with the "Ghost of the Day" title on the ith day of the competition. 
+# Output Format
+Print N lines. The ith line should contain 2 space separated integers such that the first integer denotes the age of the ghost who was awarded with the "Consistency Trophy"  
+on the ith day and the second integer denotes the number of "Ghost of the Day" titles won by this ghost until the end of the ith day of the competition. 
